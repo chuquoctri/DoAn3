@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ketquaa"
+    android:orientation="vertical"
+    tools:context=".KetQua">
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="115dp"
+        android:textAlignment="center"
+        android:text="CHÚC MỪNG"
+        android:paddingTop="8dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ED6868"
+        />
+    <TextView
+        android:id="@+id/txtScore"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="100dp"
+        android:text="Tổng điểm:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtTotalQuestions"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="100dp"
+        android:text="Tổng số câu hỏi:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtCorrectAnswers"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="100dp"
+        android:text="Số câu trả lời đúng:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtWrongAnswers"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="100dp"
+        android:text="Số câu trả lời sai:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/choilai"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginLeft="85dp"
+        android:text="CHƠI LẠI"
+        android:textSize="20dp"
+        android:textColor="#1C39DA"
+        android:textStyle="italic"
+        android:background="@drawable/button_choilai"/>
+
+</LinearLayout>

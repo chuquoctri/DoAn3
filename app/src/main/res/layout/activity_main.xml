@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgr_main"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:id="@+id/textScore"
+            android:text="100"
+            android:textAlignment="center"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/textview" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-93dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/flower" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/plus" />
+
+        <ImageButton
+            android:id="@+id/settingsIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="180dp"
+            android:background="@drawable/settings" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/man"/>
+    <TextView
+        android:id="@+id/textTenNguoiChoi"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:text="Chu Quoc Tri"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnPlay"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_play"
+        android:text="CHƠI NGAY"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:id="@+id/button_lichsu"
+            android:background="@drawable/button_thidau"
+            android:paddingLeft="-80dp"
+            android:text="Lịch Sử"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginLeft="10dp"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_qua"
+            android:text="Đổi điểm"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:paddingLeft="-60dp"/>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:src="@drawable/history"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-100dp"/>
+    <ImageView
+        android:id="@+id/img_hopqua"
+        android:layout_width="55dp"
+        android:layout_height="100dp"
+        android:src="@drawable/box"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="-105dp"/>
+    <Button
+        android:id="@+id/ThemCauHoi"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Them"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/back_setting">
+    <ImageButton
+        android:id="@+id/closeButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back_arrow"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Điều chỉnh âm lượng"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <SeekBar
+        android:id="@+id/seekBarVolume"
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:max="15"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogout"
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Đăng xuất"
+        android:textStyle="italic"
+        android:textColor="#9C27B0"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:background="@drawable/button_login"/>
+
+</LinearLayout>

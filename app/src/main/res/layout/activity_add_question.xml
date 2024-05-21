@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập câu hỏi"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextOption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập đáp án 1"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextOption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập đáp án 2"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextOption3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập đáp án 3"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextOption4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập đáp án 4"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextCorrectAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập đáp án đúng (1-4)"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/buttonSaveQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu câu hỏi" />
+
+    <ListView
+        android:id="@+id/listViewQuestions"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_login"
+    tools:context=".Login">
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back_arrow"/>
+
+
+    <EditText
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/email"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Nhập Email"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@drawable/edittext_bgr"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="20dp"
+        android:hint="Nhập mật khẩu"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_bgr"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnlogin"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Đăng nhập"
+        android:textAlignment="center"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/button_login"/>
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:text="Quên mật khẩu ?"
+        android:layout_marginLeft="225dp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:textSize="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnregis"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Đăng ký bằng Email"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_marginLeft="60dp"
+        android:textSize="15dp"
+        android:background="@drawable/edittext_bgr"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="140dp"
+            android:text="Bạn chưa có tài khoản?"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:text="Đăng ký ngay!"
+            android:textColor="#CDA11B"
+            android:textSize="10dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</LinearLayout>
